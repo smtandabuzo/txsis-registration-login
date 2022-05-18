@@ -1,17 +1,49 @@
-# YouTube Tutorial Series - Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL
+# Txsis Login Application
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 1 at https://youtu.be/Hk70e7KR290
+## Table Of Contents
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 2 at https://youtu.be/JE7KaTIF1Z4
+- [Overview](#overview)
+- [Requirements](#requirements)
+- [Getting Started](#getting-started)
+- [Testing](#testing)
+## Overview
+This application checks user credentials against a database and authenticates and allows a user to login to the Txsis system
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 3 at https://youtu.be/VqitTIMG5uI
+Service Basepath
+-
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 4 at https://youtu.be/uS8zA3W8p5s
+## Requirements
+For building and running the application you need:
+- [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [MAVEN 3](https://maven.apache.org)
+- [JAVAFX]
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 5 at https://youtu.be/hPCynjmapSo
+## Getting Started
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 6 at https://youtu.be/hE_STc3eWzE
+### Install Dependencies
+```shell
+mvn clean install
+```
+### Run Project
+```shell
+mvn spring-boot:run 
+```
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 7 at https://youtu.be/Tu3lBxlFBlM
+### API ENDPOINTS
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 8 at https://youtu.be/KKjKFLKlCbc
+-
+
+```http
+
+```
+
+## Testing
+
+Endpoint
+```
+```
+
+Example:
+
+```
+```

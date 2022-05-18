@@ -1,4 +1,4 @@
-package net.javaguides.springboot.service;
+package za.eskom.txsis.service;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -12,10 +12,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import net.javaguides.springboot.model.Role;
-import net.javaguides.springboot.model.User;
-import net.javaguides.springboot.repository.UserRepository;
-import net.javaguides.springboot.web.dto.UserRegistrationDto;
+import za.eskom.txsis.model.Role;
+import za.eskom.txsis.model.User;
+import za.eskom.txsis.repository.UserRepository;
+import za.eskom.txsis.web.dto.UserRegistrationDto;
 
 @Service
 public class UserServiceImpl implements UserService{

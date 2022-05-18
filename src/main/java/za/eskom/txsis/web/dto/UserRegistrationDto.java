@@ -1,4 +1,4 @@
-package net.javaguides.springboot.web.dto;
+package za.eskom.txsis.web.dto;
 
 public class UserRegistrationDto {
 	private String firstName;

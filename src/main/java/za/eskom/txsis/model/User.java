@@ -1,4 +1,4 @@
-package net.javaguides.springboot.model;
+package za.eskom.txsis.model;
 
 import java.util.Collection;
 
